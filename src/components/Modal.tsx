@@ -7,7 +7,7 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = ({ message, onClose }) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-green-900 bg-opacity-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
       <div className="bg-white px-16 py-8 rounded shadow-lg">
         <h2 className="text-2xl text-black font-bold mb-4">Game Over!</h2>
         <p className="mb-4 text-black">{message}</p>
